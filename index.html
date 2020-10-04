@@ -120,15 +120,15 @@
 var platform = document.getElementById('platform');  
        
 if(navigator.userAgent.match(/iPhone/i)) {
-          platform. textContent = "It's iPhone !!";
+          platform. textContent = "My Device: iPhone so there may be errors when installing this kali linux!!";
 } else if(navigator.userAgent.match(/iPad/i)) { 
-    	platform. textContent = "It's iPad !!";
+    	platform. textContent = "My Device: iPad !!";
 } else if (screen.width <= 699) {
-	platform.textContent = "Your Mobile device is a phone, so there may be errors when installing this kali linux !!";
+	platform.textContent = "My Device: phone, so there may be errors when installing this kali linux !!";
 }else if(navigator.userAgent.match(/Mac OS X/i)) { 
-  	 platform.textContent = "It's Mac !!";
+  	 platform.textContent = "My Device: Mac !!";
 } else {
-	platform.alert = "It's PC !!";
+	platform.textContent = "My Device: PC !!";
 }
 	
 </script> 	
