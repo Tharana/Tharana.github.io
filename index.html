@@ -24,6 +24,9 @@
     <a class="white link no-underline f7 mr4" href="#">View</a>
     <a class="white link no-underline f7 mr4" href="#">Window</a>
     <a class="white link no-underline f7" href="#">Help</a>
+
+ <a class="white link no-underline f7" href="#"><h1 id ="platform"></h1></a>
+	  
   </nav>
   <div class="restrictor absolute right-2 bottom-2 left-2">
     <transition-group name="fade">
@@ -113,21 +116,23 @@
   </div>
 </script>
 	
-<script types"text/javascript"> 
+<script type="text/javascript"> 
       
-var platforn = docunent.getElementByld('platforam');     
+var platform = document.getElementById('platform');  
+       
 if(navigator.userAgent.match(/iPhone/i)) {
           platform. textContent = "It's iPhone !!";
 } else if(navigator.userAgent.match(/iPad/i)) { 
     	platform. textContent = "It's iPad !!";
 } else if (screen.width <= 699) {
-	platform. textContent = "It's Mobile !!";
+	platform.textContent = "It's Mobile !!";
 }else if(navigator.userAgent.match(/Mac OS X/i)) { 
-  	 platform. textContent = "It's Mac !!"
+  	 platform.textContent = "It's Mac !!";
 } else {
-	platform. textContent = "It's PC !!";
+	platform.textContent = "It's PC !!";
+}
 	
-</script>
+</script> 	
 	
 	
 <!-- partial -->
