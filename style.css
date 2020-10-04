@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto Mono';
   overflow: hidden;
   position: relative;
-  background-image: url("https://github.com/Tharana/Tharana.github.io/blob/main/2.jpg");
+  background-image: url("https://github.com/Tharana/Tharana.github.io/blob/main/3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@ button {
 }
 
 #desktop:before {
-  background-image: url("#");
+  background-image: url("https://github.com/Tharana/Tharana.github.io/blob/main/3.jpg");
   background-repeat: repeat;
   background-size: 100px;
   content: '';
