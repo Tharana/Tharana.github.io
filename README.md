@@ -1,2 +1,2 @@
 # Tharana.github.io
-web
+beta version
