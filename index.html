@@ -127,8 +127,7 @@
 
 <script type="text/x-template" id="location-template">
 	<div class="measure">
-  	<p class="mt0">I live in the wonderful city of Rathnapura. And, if you couldn't already tell, I eat way too much🧀</p>
-    <img src="https://lankareisen.com/view/wp-content/uploads/2020/01/day-tour-to-rathnapura-by-minivan-from-negombo.5c7d7d404408a.jpg"/>
+  	<p class="no-underline dark-pink link fw6 db mb3">If you are using a mobile phone , so there may be errors when installing this kali linux!!</p>
   </div>
 </script>	
 	
@@ -138,15 +137,15 @@
 var platform = document.getElementById('platform');  
        
 if(navigator.userAgent.match(/iPhone/i)) {
-          platform. textContent = "My Device: iPhone so there may be errors when installing this kali linux!!";
+          platform. textContent = "My Device: iPhone ❗";
 } else if(navigator.userAgent.match(/iPad/i)) { 
-    	platform. textContent = "My Device: iPad !!";
+    	platform. textContent = "My Device: iPad";
 } else if (screen.width <= 699) {
-	platform.textContent = "My Device: phone, so there may be errors when installing this kali linux !!";
+	platform.textContent = "My Device: Mobile ❗,";
 }else if(navigator.userAgent.match(/Mac OS X/i)) { 
-  	 platform.textContent = "My Device: Mac !!";
+  	 platform.textContent = "My Device: Mac ";
 } else {
-	platform.textContent = "My Device: PC !!";
+	platform.textContent = "My Device: PC";
 }
 	
 </script> 	
