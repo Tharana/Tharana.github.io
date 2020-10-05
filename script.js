@@ -141,7 +141,7 @@ new Vue({
       value();
 
       if (closedWindowCount === SITE_CONTENT.length) {
-        this.focusWindow('mattOS');
+        this.focusWindow('TharaOS');
       }
     },
     focusWindow: function (title) {
