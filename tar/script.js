@@ -15,7 +15,7 @@ $('.four-oh-four-form').on('submit', function(e){
   var val = $(this).children($('.404-input')).val().toLowerCase();
   var href;
 
-	 if (val === 'tharana'){
+	 if (val === 'Contact'){
     showKittens();
   }else {
     resetForm();
@@ -41,7 +41,7 @@ function resetForm(withKittens){
 }
 
 	function showKittens(){
-		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>thfhfthfhfhfhfhhfhf</p></div>");
+		$('.terminal').append("<div class='kittens'>"+"<p class='prompt'>Email: tharanahansaja@gmail.com <br> Call: 076 292 4564 <br> Addressee:25/34,Deniyawaththa, Batugedara ,Ratnapura. 70000 Sri Lanka </p></div>");
 
 		
 		var lines = $('.kittens p');
