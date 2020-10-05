@@ -15,7 +15,7 @@ $('.four-oh-four-form').on('submit', function(e){
   var val = $(this).children($('.404-input')).val().toLowerCase();
   var href;
 
-	 if (val === 'Contact'){
+	 if (val === 'contact'){
     showKittens();
   }else {
     resetForm();
