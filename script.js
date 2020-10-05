@@ -16,6 +16,10 @@ let Writing = {
   template: '#writing-template' };
 
 
+let location = {
+  template: '#location-template' };
+
+
 let Calendar = {
   template: '#calendar-template',
   mounted: function () {
@@ -51,6 +55,13 @@ const SITE_CONTENT = [{
   id: 'writing',
   isShowing: false,
   comp: Writing },
+                      
+{
+  content: 'Im the My Device window',
+  title: 'My Device',
+  id: 'location',
+  isShowing: false,
+  comp: location },
 {
   content: 'Im the calendar window',
   title: 'Calendar',
