@@ -19,6 +19,9 @@ let Writing = {
 let Location = {
   template: '#location-template' };
 
+let Terminal = {
+  template: '#terminal-template' };
+
 
 let Calendar = {
   template: '#calendar-template',
@@ -62,6 +65,13 @@ const SITE_CONTENT = [{
   id: 'location',
   isShowing: false,
   comp: Location },
+                   
+{
+  content: 'Im the terminal ',
+  title: 'terminal',
+  id: 'terminal',
+  isShowing: false,
+  comp: Terminal },
 {
   content: 'Im the calendar window',
   title: 'Calendar',
