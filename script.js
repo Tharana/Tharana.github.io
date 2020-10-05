@@ -119,7 +119,7 @@ new Vue({
   el: '#desktop',
   data: {
     windows: SITE_CONTENT,
-    activeWindowTitle: 'mattOS' },
+    activeWindowTitle: 'TharaOS' },
 
   created: function () {
     eventHub.$on('close-window', this.closeWindow);
