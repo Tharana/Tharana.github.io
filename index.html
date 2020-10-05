@@ -69,7 +69,7 @@
 	   <div class="flex items-center pv3">
       <button class="flex-auto bn bg-transparent" @click="openWindow('terminal')">
         <figure class="mt0 mh0 mb3 w3 h3 db center icon terminal"></figure>
-	       <h4 class="ma0">Terminal(ContactMe)</h4>   
+	       <h4 class="ma0">Terminal(Con.Me)</h4>   
 	      
       </button>
 		  
@@ -165,15 +165,15 @@
 var platform = document.getElementById('platform');  
        
 if(navigator.userAgent.match(/iPhone/i)) {
-          platform. textContent = "MyDevice: iPhone❗";
+          platform. textContent = "This: iPhone❗";
 } else if(navigator.userAgent.match(/iPad/i)) { 
-    	platform. textContent = "MyDevice: iPad";
+    	platform. textContent = "This: iPad";
 } else if (screen.width <= 699) {
-	platform.textContent = "My Device: Mobile❗,";
+	platform.textContent = "This: Mobile❗,";
 }else if(navigator.userAgent.match(/Mac OS X/i)) { 
-  	 platform.textContent = "MyDevice: Mac ";
+  	 platform.textContent = "This: Mac ";
 } else {
-	platform.textContent = "MyDevice: PC";
+	platform.textContent = "This: PC";
 }
 	
 </script> 	
