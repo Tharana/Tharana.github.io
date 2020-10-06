@@ -44,6 +44,7 @@ nav {
 
 .window {
   min-height: 300px;
+  max-width: inherit;
 }
 
 .fade-enter-active, .fade-leave-active {
